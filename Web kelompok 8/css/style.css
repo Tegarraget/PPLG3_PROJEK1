@@ -1,0 +1,52 @@
+body {
+    background-image: url(../img/bg-home.jpg);
+    background-size: cover;
+    height: 712px;
+}
+
+.navbar {
+    margin-bottom: 200px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-2 {
+    background-color: white;
+    text-align: center;
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.col-md-2:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 30px 4px rgba(91, 181, 206, 0.8);
+}
+
+.profil {
+    background-color: rgba(255, 255, 255, 0.562);
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    transition: .4s;
+}
+
+.navbar .ul1 li {
+    margin-right: 10px;
+}
+
+.navbar .ul1 li:nth-child(1) {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.navbar .ul1 li:hover {
+    background-color: blue;
+    border-radius: 10px;
+}

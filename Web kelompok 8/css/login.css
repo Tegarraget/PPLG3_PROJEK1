@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 712px;
+    background-image: url(../img/bg-login.jpg);
+    background-size: cover;
+}
+
+form {
+    width: 350px;
+    background-color: #5F48FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.534); 
+    color: white;   
+}
